@@ -1,0 +1,18 @@
+# Віртуальне середовище
+venv/
+lab1_env/
+
+# Файли, що генеруються IDE
+*.pyc
+__pycache__/
+
+# Файли конфігурації IDE
+.vscode/
+.idea/
+
+# Системи управління залежностями
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Вихідні файли
+*.log
