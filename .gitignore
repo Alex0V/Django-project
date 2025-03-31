@@ -4,6 +4,9 @@ lab1_env/
 
 info.txt
 
+# Ignoring SQLite database file
+db.sqlite3
+
 # Файли, що генеруються IDE
 *.pyc
 __pycache__/
