@@ -3,6 +3,10 @@ from .forms import OrderForm
 from .models import Orders
 # Create your views here.
 
+# Redirect from root path to ‘sv/’
+def redirectToShowView(request):
+    return redirect('show_url')  
+
 def orderFormView(request):
     form = OrderForm()
     if request.method == 'POST':
