@@ -4,7 +4,7 @@ from .models import ArticleImage
 
 
 class ArticleImageForm(forms.ModelForm):
-    image = forms.ImageField(widget=forms.ClearableFileInput(attrs={'multiple': True}))
+    image = forms.ImageField(widget=forms.ClearableFileInput())
 
 class Meta:
     model = ArticleImage
