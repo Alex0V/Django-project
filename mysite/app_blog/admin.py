@@ -33,7 +33,7 @@ class ArticleAdmin(admin.ModelAdmin):
     raw_id_fields = ('category',)
     fieldsets = (
         ('', {
-            'fields': ('pub_date', 'title', 'description', 'main_page'),
+            'fields': ('pub_date', 'title', 'description', 'main_page', 'category'),
         }),
         ('Додатково', {
             'classes': ('grp-collapse', 'grp-closed'),
