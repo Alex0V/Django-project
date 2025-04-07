@@ -2,6 +2,10 @@
 venv/
 lab1_env/
 
+# Article Images
+mysite/media
+mysite/media/photos
+
 info.txt
 
 # Ignoring SQLite database file
